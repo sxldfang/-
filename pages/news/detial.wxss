@@ -1,0 +1,10 @@
+/* pages/news/detial.wxss */
+.w{height:80vh; flex-direction: column; align-items:  center;  justify-content: space-around; }
+.kuang{padding: 0 10px 20px; font-size: 14px; line-height: 2;}
+.hr{border-top:1px solid gray; height:20px;width:100%;margin-top:20px;}
+.title{font-family: 黑体; text-align: center; color:red; font-size: 16px; }
+.p{text-indent: 2em; min-height: 20px; word-wrap:break-word;word-break:break-all;}
+.img{width:100%; padding-top: 20px;}
+.center{text-align: center; min-height: 20px;}
+.ret{ position: fixed; left:10px;right:10px;bottom: 10px; font-size: 14px; background-color: #ccc; padding:5px;}
+.kongbai{ height:50px;}

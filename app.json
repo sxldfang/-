@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/news/list",
+    "pages/news/detial"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "河南水利与环境职业学院",
+    "navigationBarTextStyle": "black"
+  }
+}

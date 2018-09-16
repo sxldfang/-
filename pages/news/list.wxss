@@ -1,0 +1,10 @@
+/* pages/news/list.wxss */
+.kuang{padding: 0 10px 20px; font-size: 14px; line-height: 2;}
+.menu{ position: fixed; background-color: red; color: yellow; z-index: 1; padding: 5px 0; height:34px;} 
+.menu view{ display: inline-block; padding: 4px; font-size: 14px; }
+.nr{position: relative; display: block; top: 44px; background-color: white;}
+/* text{text-decoration: none; color: gray; padding: 4px; } */
+.news{padding: 10px 0; }
+.time{color:gray; font-size: 12px; border:none;}
+.style{border-radius: 8px; border-bottom:2px solid red;}
+.cur  {border-radius: 8px; border-bottom:2px solid white; }

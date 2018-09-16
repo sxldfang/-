@@ -1,0 +1,16 @@
+<!--pages/news/detial.wxml-->
+<view class='w' style='display:{{show?"none":"flex"}}'>
+<image src='/images/wait.gif' style="width:62px;" mode='aspectFit' ></image>
+</view>
+<view class='kuang' style='display:{{show?"block":"none"}}'>
+
+<block wx:for='{{nr}}'>
+<view class='title' wx:if='{{item.t==0}}'>{{item.c}}</view>
+<view class='p' wx:elif='{{item.t==1}}'>{{item.c}}</view>
+<image class='img' wx:elif='{{item.t==2}}' src='{{item.c}}' mode='widthFix'></image> 
+<view class='center' wx:elif='{{item.t==3}}'>{{item.c}}</view>
+<view class='hr' wx:elif='{{item.t==4}}'></view>
+</block>
+<view class='kongbai' />
+<button class='ret' bindtap='back' style='display:{{showReturn?"block":"none"}}'>返回新闻列表</button>
+</view>

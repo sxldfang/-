@@ -1,0 +1,21 @@
+<!--pages/news/list.wxml-->
+<scroll-view scroll-x class='menu'>
+<view wx:for='{{news}}' bindtap='listNews' data-id='{{item.id}}' data-index='{{index}}' class='{{item.style}}'>{{item.des}}</view>
+</scroll-view>
+
+
+<view class='nr'>
+  <view style="display:{{first}};">
+  <image style="width:100%;" src='https://www.sxldfang.cn/hnsy/images/logo.jpg' mode='widthFix' bindload='scroolToBottom'></image>
+  </view>
+
+
+
+  <view class='kuang'>
+    <view  class='news' wx:for='{{newsList}}' bindtap='showNews' data-index='{{index}}' data-url='{{item.url}}' style='color:{{item.color}}'>
+      {{item.des}}
+      <text class='time'>{{item.time}}</text>
+    </view>
+  </view>
+
+</view>
